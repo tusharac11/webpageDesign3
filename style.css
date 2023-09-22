@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    left: 0;
+    display: inline-block;
+    padding: 7px 23px;
+    border: 2px solid  #dbd3d3;
+    border-radius: 2px;
+    transition: 0.6s ease;
+}
+.logo h1{
+    color: #b4d3a4;
+    
+    text-align: center;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid  transparent;
+    border-radius: 2px;
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background-color: white;
+    color: #121010
+
+}
+ul li.active a {
+    background-color: white;
+    color: #121010
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width:1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.title p{
+    color: #afb49e;
+    margin: 10px;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition:  0.6s ease;
+    border-radius: 2px;
+}
+.btn:hover{
+    background-color: white;
+    color: #121010
+}
